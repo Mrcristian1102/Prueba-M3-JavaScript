@@ -1,6 +1,4 @@
-# Workspace Reservation System
-
-A Single Page Application (SPA) for booking shared workspaces inside a company. Employees can create and manage their own reservations, while administrators have full control over all bookings and spaces.
+# Riwi Reservation System
 
 ## Description
 
@@ -34,7 +32,7 @@ This single command starts both servers at once using concurrently:
 ## Running json-server Separately
 
 ```bash
-npx json-server --watch db.json --port 3001
+npx json-server --watch db.json --port 3000
 ```
 
 ## Test Users

@@ -41,12 +41,6 @@ export default function loginView() {
           </button>
         </form>
 
-        <div class="mt-5 p-3 bg-slate-50 rounded-lg text-xs text-slate-500">
-          <p class="font-medium mb-1">Usuarios de prueba:</p>
-          <p>Admin: admin@test.com / A123456</p>
-          <p>User: user@test.com / A123456</p>
-        </div>
-
       </div>
     </div>
   `;
