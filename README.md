@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Workspace Reservation System
 
 A Single Page Application (SPA) for booking shared workspaces inside a company. Employees can create and manage their own reservations, while administrators have full control over all bookings and spaces.
@@ -79,6 +78,3 @@ src/
 ├── main.js                            # Entry point
 └── style.css                          # Tailwind directives
 ```
-=======
-# Prueba-M3-JavaScript
->>>>>>> f68584c15b97e759a040331293ee8b56c4956787

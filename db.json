@@ -24,14 +24,6 @@
   ],
   "spaces": [
     {
-      "id": "1",
-      "name": "Sala Alfa",
-      "type": "Sala de reuniones",
-      "capacity": 10,
-      "location": "Piso 2",
-      "status": "available"
-    },
-    {
       "id": "2",
       "name": "Oficina 101",
       "type": "Oficina privada",
@@ -58,28 +50,28 @@
   ],
   "reservations": [
     {
-      "id": "1",
-      "userId": 2,
+      "userId": "2",
       "userName": "Carlos Ruiz",
-      "spaceId": 1,
-      "workspace": "Sala Alfa",
-      "date": "2026-06-20",
-      "startHour": "08:00",
-      "endHour": "10:00",
-      "reason": "Sprint Planning",
-      "status": "approved"
+      "spaceId": 2,
+      "workspace": "Oficina 101",
+      "date": "2026-06-11",
+      "startHour": "17:37",
+      "endHour": "18:40",
+      "reason": "Reunión",
+      "status": "pending",
+      "id": "Y9xZMe5typc"
     },
     {
-      "id": "2",
-      "userId": 3,
+      "userId": "3",
       "userName": "Laura Gomez",
       "spaceId": 2,
       "workspace": "Oficina 101",
-      "date": "2026-06-21",
-      "startHour": "14:00",
-      "endHour": "16:00",
-      "reason": "Trabajo concentrado",
-      "status": "approved"
+      "date": "2026-06-24",
+      "startHour": "14:42",
+      "endHour": "17:45",
+      "reason": "Reunión",
+      "status": "pending",
+      "id": "5lysSvFWur4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

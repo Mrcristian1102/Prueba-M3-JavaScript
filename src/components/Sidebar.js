@@ -20,7 +20,7 @@ export default function Sidebar() {
 
   return `
     <aside class="w-56 bg-slate-900 text-white min-h-screen p-5 flex flex-col">
-      <h2 class="text-xl font-bold mb-2">Work</h2>
+      <h2 class="text-xl font-bold mb-2">Riwi</h2>
       <p class="text-xs text-slate-400 mb-6">${user?.name} <span class="ml-1 bg-slate-700 px-1.5 py-0.5 rounded text-slate-300">${user?.role}</span></p>
 
       <nav class="flex flex-col gap-2 flex-1">
